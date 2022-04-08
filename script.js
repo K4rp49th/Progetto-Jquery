@@ -3,7 +3,7 @@ const mieImg = ["arrabbiato", "bello", "piangere", "ridere", "amare", "amare1", 
 ];
 // creo una variabile che mi contiene le immagini cliccate
 $(document).ready(function() {
-        $(mieImg).on('click');
+        $(mieImg).on('click', shuffleImages());
     })
     // quando il documento è pronto...vado a selezionare casualmente una immagine dalla cartella.
 
